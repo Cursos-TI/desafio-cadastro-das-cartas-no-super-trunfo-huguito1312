@@ -10,9 +10,9 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     int carta;
-    char estado[1];
-    char codigo[3];
-    char cidade[15];
+    char estado[2];
+    char codigo[4];
+    char cidade[20];
     int populacao;
     float area;
     float PIB;
@@ -46,9 +46,9 @@ int main() {
     PIB_percapita = (PIB / populacao);
 
     printf("Carta: %d\n", carta);
-    printf( "Estado: %s\n", estado);
-    printf( "Código: %s\n", codigo);
-    printf( "Nome da Cidade: %s\n", cidade);
+    printf("Estado: %s\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Nome da Cidade: %s\n", cidade);
     printf("População: %d Habitantes\n", populacao);
     printf("Área: %.2f Km²\n", area);
     printf("PIB: %.2f bi\n", PIB);
